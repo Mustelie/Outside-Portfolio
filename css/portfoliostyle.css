@@ -34,6 +34,18 @@
     padding: 20%;
 }
 
+.p1{
+    grid-column: 1/-1;
+}
+
+.p2{
+    grid-column: 1 / span 2;
+}
+
+/* .portrait-image{
+    grid-column: 3 / span 1;
+} */
+
 @media all and (min-width: 600px){
     .grid-container{
         grid-template-columns: 1fr 1fr;
@@ -46,7 +58,6 @@
         padding-bottom: 2
     }
 }
-
 
 @media screen and (prefers-reduced-motion: reduce){
     html{

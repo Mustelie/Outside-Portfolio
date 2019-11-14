@@ -1,0 +1,32 @@
+
+
+/* indicates what page you are on in the nav - see index.html for where to find this class if confused - add to all pages */
+.current{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-bottom: 6%;
+    margin: 2%;
+}
+
+.portrait-image{
+    width: 400px;
+    padding: 20%;
+}
+@media all and (min-width: 600px){
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media all and (min-width: 1100px){
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 2
+    }
+}

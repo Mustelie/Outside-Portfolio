@@ -39,9 +39,10 @@
 }
 
 .p2{
-    grid-column: 1 / span 2;
+    grid-column: 1 / -1;
 }
 
+/* testing */
 /* .portrait-image{
     grid-column: 3 / span 1;
 } */

@@ -49,10 +49,10 @@ footer{
     grid-column: 1 / -1;
 }
 
-/* testing */
-/* .portrait-image{
-    grid-column: 3 / span 1;
-} */
+.portrait-image{
+    grid-column: 1/ -1;
+    /* want to center photo; */
+}
 
 @media all and (min-width: 600px){
     .grid-container{

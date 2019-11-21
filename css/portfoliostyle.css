@@ -11,7 +11,7 @@
 .top-bit{
   z-index: 99;
   background-color: #E9AFA3;
-  width: 100vw;
+  width: 1fr;
 }
 nav ul{
   list-style-type: none;

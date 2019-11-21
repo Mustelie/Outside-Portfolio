@@ -92,6 +92,13 @@ nav ul{
     justify-content: center;
   
 }
+nav a:focus{
+    border: 2px solid black;
+  }
+  
+nav a:hover{
+    text-decoration: underline;
+  }
 
 
 
@@ -101,29 +108,10 @@ nav ul{
     }
 
     /* tablet nav */
-
-    .nav{
-        background-color: #9c2913;
-      }
-      
-      .nav a{
-        color: white;
-      }
-      
-    nav ul{
-        list-style:none;  
-    }
-    
-    nav ul li{
-        padding: 2%;
-        display: inline;
-    }
-    
     nav ul{
         flex-direction: row;
         justify-content:space-between;
     }
-
 
 }
 
@@ -131,6 +119,47 @@ nav ul{
     .grid-container{
         grid-template-columns: 1fr 1fr 1fr;
         padding-bottom: 2
+    }
+
+        nav ul{
+            justify-content:flex-end;
+        }
+        
+        nav a{
+          text-decoration: none; 
+        }
+        
+        nav a:hover{
+          text-decoration:underline; 
+        }
+        
+        
+        .skip a{
+          background: white;
+          left: 0;
+          padding: 6px;
+          position: absolute;
+          top: -40px;
+          -webkit-transition: top 1s ease-out;
+          transition: top 1s ease-out;
+          z-index: 1;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
       }
 /*
 
@@ -161,28 +190,7 @@ nav li{
   /*Your code here */
 }
 
-nav a{
-  font-weight: bold;
-  text-decoration: none; 
-}
-
-nav a:hover{
-  text-decoration:underline; 
-}
-
-
-
-.skip a{
-  background: white;
-  left: 0;
-  padding: 6px;
-  position: absolute;
-  top: -40px;
-  -webkit-transition: top 1s ease-out;
-  transition: top 1s ease-out;
-  z-index: 1;
-}
-.nav{
+/* .nav{
   overflow: hidden;
   vertical-align: middle;
   top:0;
@@ -190,12 +198,11 @@ nav a:hover{
   color: #f2f2f2;
   display: block;
   background-color: #E9AFA3;
- /* padding: 20px 0; */
   text-align: center; 
   margin: auto;
 
-}
-.nav a {
+} */
+/* .nav a {
   font-size: 24px;
   float: left;
   display: block;
@@ -203,8 +210,8 @@ nav a:hover{
   text-align: center;
   padding: 14px;
   text-decoration: none;
-}
-.sticky {
+} */
+/* .sticky {
   z-index: 99;
   position: fixed;
   top: 0;
@@ -218,21 +225,7 @@ nav a:hover{
 
 .cell img {
   display: block;
-}
-.current{
-    text-transform: bold;
-    text-decoration: underline;
-    border:1px solid white;
-  }*/
-}
-
-
-@media all and (min-width: 1100px){
-  .grid-container{
-        grid-template-columns: 1fr 1fr 1fr;
-        padding-bottom: 2
-      }
-}
+} */
 
 
 @media screen and (prefers-reduced-motion: reduce){

@@ -1,6 +1,6 @@
-.header img{
+/*.header img{
   visibility: hidden;
-}
+}*/
 /* indicates what page you are on in the nav - see index.html for where to find this class if confused - add to all pages */
 .current{
     text-transform: bold;
@@ -132,7 +132,7 @@ nav ul{
         grid-template-columns: 1fr 1fr 1fr;
         padding-bottom: 2
       }
-
+/*
 
 .header {
   background-color: #E9AFA3;
@@ -223,7 +223,7 @@ nav a:hover{
     text-transform: bold;
     text-decoration: underline;
     border:1px solid white;
-  }
+  }*/
 }
 
 

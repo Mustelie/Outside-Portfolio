@@ -1,5 +1,6 @@
-
-
+.header img{
+  visibility: hidden;
+}
 /* indicates what page you are on in the nav - see index.html for where to find this class if confused - add to all pages */
 .current{
     text-transform: bold;
@@ -69,6 +70,13 @@ div.lists{
 }
 
 /* mobile nav */
+.nav{
+    background-color: #9c2913;
+  }
+  
+  .nav a{
+    color: white;
+  }
 nav ul{
     list-style:none;  
 }
@@ -93,6 +101,15 @@ nav ul{
     }
 
     /* tablet nav */
+
+    .nav{
+        background-color: #9c2913;
+      }
+      
+      .nav a{
+        color: white;
+      }
+      
     nav ul{
         list-style:none;  
     }
@@ -122,6 +139,7 @@ nav ul{
   max-width: 1fr;
 }
 .header img{
+  visibility: visible;
   max-width: 100%;
   max-height:   auto;
   vertical-align: middle;
@@ -206,6 +224,14 @@ nav a:hover{
     text-decoration: underline;
     border:1px solid white;
   }
+}
+
+
+@media all and (min-width: 1100px){
+  .grid-container{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 2
+      }
 }
 
 

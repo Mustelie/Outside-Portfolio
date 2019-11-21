@@ -9,7 +9,11 @@
   </head>
     <body>
     	<div class="skip"><a href="#main">Skip to Main Content</a></div>
-        <div class="container">
+      <div class = 'top-bit'>
+  <div class='header'>
+  <img src="img/header_name.png" alt="Decorative image that says Laura k. Alford"/>
+  </div>
+        
         <div class="nav" id="nav">
           <nav>
             <ul>
@@ -23,7 +27,9 @@
           </nav>
         </div>
       </div>
+      </div>
       <main>
+        <div class="container">
         <header id = "main">
             <h1>Interesting Links</h1>
             <h2>If you're just looking to waste time...</h2>
@@ -63,3 +69,19 @@
           </p>
          </footer>
     </body>
+    <script type="text/javascript">
+    window.onscroll = function() {stickyScroll()};
+
+
+var navbar = document.getElementById("nav");
+
+var sticky = navbar.offsetTop;
+function stickyScroll() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+  </script>
+  </html>

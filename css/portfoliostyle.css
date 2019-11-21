@@ -1,5 +1,86 @@
 
 
+/* indicates what page you are on in the nav - see index.html for where to find this class if confused - add to all pages */
+.current{
+    text-transform: bold;
+    text-decoration: underline;
+    border:1px solid white;
+}
+
+footer{
+    background-color:black;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+  }
+  
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: none !important;
+    transition: top 0s ease-out !important;
+    z-index: 1;
+  }
+
+  .skip a:focus{
+    top:0;
+  }
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-bottom: 6%;
+    margin: 2%;
+}
+
+/* index styling */
+.portrait-image{
+    width: 400px;
+    padding: 20%;
+}
+
+.p1{
+    grid-column: 1/-1;
+}
+
+.p2{
+    grid-column: 1 / -1;
+}
+
+.portrait-image{
+    grid-column: 1/ -1;
+    /* want to center photo; */
+}
+
+/* resume styling */
+div #a{
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+div.lists{
+    text-align: left;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+@media all and (min-width: 600px){
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media all and (min-width: 1100px){
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 2
+      }
+
+
 .header {
   background-color: #E9AFA3;
   max-width: 1fr;
@@ -83,87 +164,13 @@ nav a:hover{
 .cell img {
   display: block;
 }
-
-/* indicates what page you are on in the nav - see index.html for where to find this class if confused - add to all pages */
 .current{
     text-transform: bold;
     text-decoration: underline;
     border:1px solid white;
-}
-
-footer{
-    background-color:black;
-    color: white;
-    padding-top: 30px;
-    text-align: center;
   }
-  
-.skip a{
-    background: white;
-    left: 0;
-    padding: 6px;
-    position: absolute;
-    top: -40px;
-    -webkit-transition: none !important;
-    transition: top 0s ease-out !important;
-    z-index: 1;
-  }
-
-  .skip a:focus{
-    top:0;
-  }
-
-.grid-container{
-    display:grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    padding-bottom: 6%;
-    margin: 2%;
 }
 
-/* index styling */
-.portrait-image{
-    width: 400px;
-    padding: 20%;
-}
-
-.p1{
-    grid-column: 1/-1;
-}
-
-.p2{
-    grid-column: 1 / -1;
-}
-
-.portrait-image{
-    grid-column: 1/ -1;
-    /* want to center photo; */
-}
-
-/* resume styling */
-div #a{
-    text-align: center;
-    padding-left: 8%;
-    padding-right: 8%;
-}
-div.lists{
-    text-align: left;
-    padding-left: 8%;
-    padding-right: 8%;
-}
-
-@media all and (min-width: 600px){
-    .grid-container{
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media all and (min-width: 1100px){
-    .grid-container{
-        grid-template-columns: 1fr 1fr 1fr;
-        padding-bottom: 2
-    }
-}
 
 @media screen and (prefers-reduced-motion: reduce){
     html{

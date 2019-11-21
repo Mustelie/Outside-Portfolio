@@ -9,8 +9,12 @@
     </head>
     <body>
         <div class="skip"><a href="#main">Skip to Main Content</a></div>
-        <div class="container">
-        <div class="nav">
+        <div class = 'top-bit'>
+  <div class='header'>
+  <img src="img/header_name.png" alt="Decorative image that says Laura k. Alford"/>
+  </div>
+        
+        <div class="nav" id="nav">
           <nav>
             <ul>
               <li><a href="index.html" class = "current">About</a></li>
@@ -22,7 +26,9 @@
           </nav>
         </div>
       </div>
+      <div class="container">
       <main>
+
         <header id="main">
             <h1>About Me</h1>
         </header>
@@ -54,4 +60,22 @@
           </p>
         </footer>
     </body>
+    <script type="text/javascript">
+    window.onscroll = function() {stickyScroll()};
+
+
+var navbar = document.getElementById("nav");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function stickyScroll() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+  </script>
     </html>

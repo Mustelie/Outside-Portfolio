@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/portfoliostyle.css">
+    <link rel="stylesheet" type="text/css" href="css/researchstyle.css">
+    <title>Resume</title>
+  </head>
+  <body>
+	<div class="skip"><a href="#main">Skip to Main Content</a></div>
+	<div class = 'top-bit'>
+	<div class='header'>
+	<img src="img/header_name.png" alt="Decorative image that says Laura k. Alford"/>
+	</div>
+        <div class="nav" id='nav'>
+          <nav>
+            <ul>
+              <li><a href="index.html" >About</a></li>
+              <li><a href="resume.html" class = "current">Resume</a></li>
+              <li><a href="interesting_links.html">Interesting Links</a></li>
+              <li><a href="research.html">Research</a></li>
+              <li><a href="teaching.html">Teaching</a></li>
+            </ul>
+          </nav>
+        </div>
+    </div>
+    <div class = 'container'>
+			<div class = 'text'>
+				<h1>Research</h1>
+				<div class="tandem">
+				<h2>What is Tandem?</h2>
+
+		<p>Tandem is an online tool designed to help people function better on teams and to help instructors/managers better support those teams.  Currently, Tandem is being used by student teams in a higher education setting.  In the future, we hope to expand to teams in other settings, such as secondary education and industry.  Tandem is being developed by the University of Michigan's Center for Academic Innovation.</p>
+
+		<p>Tandem provides both team assessment and team instruction.  We aim to increase transparency on teams and provide timely support and instruction based on each team's experiences.  Using Tandem includes:
+			<ul>
+				<li>
+					<h3>Personalized Coaching</h3>
+				<ul>
+					<li>Content delivered to students based on how they say their team is doing.</li>
+					<li>Lessons on teamwork concepts include messages tailored to individual student attributes.</li>
+					<li>Exercises help students create plans, assess on progress, and reflect on their own behaviors.</li>
+					<li>Real-time Insights</li>
+				</ul>
+				</li>
+				<li>
+					<h3>Regular student check-in surveys on team function.</h3>
+				<ul>
+					<li>Instructor dashboard to monitor student teams.</li>
+					<li>Visualizations to help students see their team’s progression.</li>
+					
+				</ul>
+				</li>
+				<li>
+					<h3>Adaptable Features</h3>
+				<ul>
+					<li>Robust system means that each course or setting can set their own schedule, select or add content, and determine what student measures matter to them.</li>
+					<li>Instructor views include customizable performance categories to flag teams that could use support.</li>
+					
+				</ul>
+				</li>
+			</ul></p>
+		</div>
+
+		<div class='demo-site'>
+		<h2>Try the Demo Site!</h2>
+
+		<p>Go to <a href='teamsintandem.com'>TeamsInTandem.com</a> and click "Try Demo"</p>
+		<div class="learn-more">
+		<h3>More information about Tandem</h3>
+		<ul>
+			<li><a href = 'https://ai.umich.edu/blog/preparing-new-features-as-tandem-expands-to-two-new-courses/'>Preparing New Features as Tandem Expands to Two New Courses</a></li>
+			<li><a href = 'https://ai.umich.edu/blog/the-3-things-to-know-about-tandem/'>The 3 Things to Know about Tandem</a></li>
+			<li><a href = 'https://ai.umich.edu/blog/small-data-big-goals-how-weve-approached-analyzing-students-experiences-in-the-first-semester-of-tandem/'>Small Data, Big Goals: How We’ve Approached Analyzing Students’ Experiences</a></li>
+			<li><a href = 'https://ai.umich.edu/blog/why-we-proposed-a-teamwork-tool-to-the-academic-innovation-team/'>Why We Proposed a Teamwork Tool to the Academic Innovation Team</a></li>
+		</ul>
+		</div>
+		</div>
+
+		
+	</div>
+	</div>
+</body>
+<script type="text/javascript">
+  	window.onscroll = function() {stickyScroll()};
+
+
+var navbar = document.getElementById("nav");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function stickyScroll() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+  </script>
+  </html>

@@ -1,6 +1,43 @@
 /*.header img{
   visibility: hidden;
 }*/
+/* 
+.header__navbar {
+  padding: 0 0;
+  border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+}
+.navbar {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+.navbar__logo{
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  margin: 0;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+ .navbar__links a{
+    padding: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+ }
+
+ .navbar__links a:hover {
+      color: orangered;
+    } */
+
+ 
+
 /* indicates what page you are on in the nav - see index.html for where to find this class if confused - add to all pages */
 .current{
     text-transform: bold;
@@ -70,7 +107,7 @@ div.lists{
 }
 
 /* mobile nav */
-.nav{
+/* .nav{
     background-color: #9c2913;
   }
   
@@ -84,9 +121,9 @@ nav ul{
 nav ul li{
     padding: 2%;
     display: inline;
-}
+} */
 
-nav ul{
+/* nav ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,7 +135,7 @@ nav a:focus{
   
 nav a:hover{
     text-decoration: underline;
-  }
+  } */
 
 
 
@@ -106,12 +143,24 @@ nav a:hover{
     .grid-container{
         grid-template-columns: 1fr 1fr;
     }
+    
+  /* .navbar, .navbar__links {
+    display: flex;
+  }
 
+  .navbar {
+		flex-direction: column;
+		align-items: center;
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1366px;
+    } */
+    
     /* tablet nav */
-    nav ul{
+    /* nav ul{
         flex-direction: row;
         justify-content:space-between;
-    }
+    } */
 
 }
 
@@ -121,7 +170,12 @@ nav a:hover{
         padding-bottom: 2
     }
 
-        nav ul{
+    /* .navbar {
+      flex-direction: row;
+      justify-content: space-between;        
+    } */
+
+        /* nav ul{
             justify-content:flex-end;
         }
         
@@ -132,7 +186,7 @@ nav a:hover{
         nav a:hover{
           text-decoration:underline; 
         }
-        
+         */
         
         .skip a{
           background: white;
@@ -145,21 +199,6 @@ nav a:hover{
           z-index: 1;
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
       }
 /*
 
@@ -188,7 +227,7 @@ nav li{
   padding-left: 20px;
   padding-right: 20px;
   /*Your code here */
-}
+/* } */
 
 /* .nav{
   overflow: hidden;

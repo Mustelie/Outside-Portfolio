@@ -158,6 +158,9 @@ div.lists{
   .active, .accordion:hover {
     background-color: #ccc; 
   }
+  .active, .accordion:focus{
+    background-color: #ccc; 
+  }
 
   .accordion:after {
     content: '\002B';

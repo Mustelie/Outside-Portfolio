@@ -24,14 +24,18 @@ body {
 footer{
     background-color:black;
     color: white;
-    padding-top: 30px;
     text-align: center;
     bottom: 0;
     width: 100%;
-    min-height: -webkit-calc(100% - 186px);
+    /* min-height: -webkit-calc(100% - 186px);
     min-height: -moz-calc(100% - 186px);
-    min-height: calc(100% - 186px);
+    min-height: calc(100% - 186px); */
+}
 
+.links-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 nav ul {
@@ -103,7 +107,7 @@ nav ul {
 .grid-container{
     display:grid;
     grid-template-columns: 1fr;
-    justify-items: center;
+    justify-content: center;
     padding-bottom: 6%;
     padding-right: 5%;
     margin: 2%;

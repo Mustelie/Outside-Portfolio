@@ -114,7 +114,7 @@ nav ul {
 }
 
 .portrait-image{
-    width: 400px;
+    width: 200px;
     padding-left: 10%;
     grid-column: span 1 /-1;
 }
@@ -172,12 +172,15 @@ div.lists{
   }
   
   .panel {
-  padding: 0 18px;
+  padding: 10px 25px 10px 15px;
   display: none;
   background-color: white;
   overflow: hidden;
 }
 
+.container{
+    padding-bottom: 60px;
+}
 
 /* tablet media query */
 @media all and (min-width: 755px){

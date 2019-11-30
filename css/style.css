@@ -182,7 +182,6 @@ div.lists{
   overflow: hidden;
 }
 
-<<<<<<< HEAD
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -214,9 +213,10 @@ div.lists{
 	font-size: 13px;
 }
 
-.container{
+/*THIS CAUSED MY MERGE ERROR - do we need this section??*/
+/*.container{
     padding-bottom: 60px;
-}
+}*/
 
 /* tablet media query */
 @media all and (min-width: 755px){

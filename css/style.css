@@ -115,7 +115,7 @@ nav ul {
 }
 
 .portrait-image{
-    width: 400px;
+    width: 200px;
     padding-left: 10%;
     grid-column: span 1 /-1;
 }
@@ -159,6 +159,9 @@ div.lists{
   .active, .accordion:hover {
     background-color: #ccc; 
   }
+  .active, .accordion:focus{
+    background-color: #ccc; 
+  }
 
   .accordion:after {
     content: '\002B';
@@ -172,13 +175,14 @@ div.lists{
     content: "\2212";
   }
   
-  .panel {
-  padding: 0 18px;
+  .panel1, .panel2 {
+  padding: 10px 25px 10px 15px;
   display: none;
   background-color: white;
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -208,6 +212,10 @@ div.lists{
 .caption {
 	text-align: center;
 	font-size: 13px;
+}
+
+.container{
+    padding-bottom: 60px;
 }
 
 /* tablet media query */

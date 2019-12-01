@@ -216,9 +216,9 @@ div.lists{
 }
 
 /*THIS CAUSED MY MERGE ERROR - do we need this section??*/
-/*.container{
+.container{
     padding-bottom: 60px;
-}*/
+}
 
 /* tablet media query */
 @media all and (min-width: 755px){

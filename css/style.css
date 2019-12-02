@@ -5,7 +5,7 @@
 }
 
 h1{
-    padding: 20px;
+    padding-top: 20px;
     color: hotpink;
     font-size: 27px;
 }
@@ -220,6 +220,7 @@ div.lists{
 /*THIS CAUSED MY MERGE ERROR - do we need this section??*/
 .container{
     padding-bottom: 3%;
+    padding-left: 5%;
 }
 
 /* tablet media query */

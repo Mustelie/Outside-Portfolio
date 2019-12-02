@@ -140,7 +140,12 @@ div.lists{
     padding-right: 8%;
 }
 
-/* accordion on links page*/
+/* research */
+.research-body{
+    padding-right: 10%;
+}
+
+/* accordion on links page and teaching page*/
 .accordion {
     background-color: #eee;
     color: #444;
@@ -264,7 +269,7 @@ div.lists{
         
     div #a{
         text-align: left;
-        padding-left: 8%;
+        padding-left: 0%;
         padding-right: 8%;
         }
     
@@ -307,7 +312,7 @@ div.lists{
 
     div #a{
         text-align: left;
-        padding-left: 8%;
+        padding-left: 0%;
         padding-right: 8%;
     }
     div.lists{
@@ -319,8 +324,6 @@ div.lists{
     .t1 {
     	grid-column: 1/2;
     }
-    
-
 
 }
 

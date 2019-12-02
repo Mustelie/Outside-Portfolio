@@ -78,12 +78,12 @@ nav ul {
 }
 
 .main-nav a {
-	color:blue;
+	color:orange;
 	font-size: .99em;
 }
 
 .main-nav a:hover {
-	color: #718daa;
+	color: green;
 }
 
 
@@ -183,6 +183,10 @@ div.lists{
   display: none;
   background-color: white;
   overflow: hidden;
+}
+
+.accordion-container{
+    padding-right: 5vw;
 }
 
 

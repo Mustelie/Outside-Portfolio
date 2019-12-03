@@ -219,7 +219,7 @@ div.lists{
 }
 
 .caption {
-/*	text-align: center;*/
+	text-align: center;
 	font-size: 13px;
 }
 
@@ -227,6 +227,8 @@ div.lists{
     padding-bottom: 3%;
     padding-left: 5%;
 }
+
+
 
 /* tablet media query */
 @media all and (min-width: 755px){
@@ -273,7 +275,7 @@ div.lists{
 
       }
 
-    .t1, .t2 {
+    .t1, .t2, .t3 {
       padding-bottom: 5%;
       grid-column: 1/span 1;
     }
@@ -335,7 +337,7 @@ div.lists{
         padding-right: 2%;
     }
     /* teaching styling */
-    .t1, .t2 {
+    .t1, .t2, .t3 {
       padding-bottom: 5%;
     	grid-column: 1/ span 2;
     }

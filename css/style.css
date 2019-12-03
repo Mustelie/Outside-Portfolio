@@ -1,18 +1,19 @@
 .current{
     text-transform: bold;
     text-decoration: underline;
-    border:1px solid #427AA1;
+    border:1px solid #0B7A75;
     border-radius: 7px;
 }
 
 h1{
     padding-top: 20px;
-    color:#427AA1;
+    color:#0A2463;
     font-size: 27px;
 }
 
 h2{
     font-size: 22px;
+    color: #427AA1;
 }
 
 body {
@@ -23,7 +24,7 @@ body {
 }
 
 footer{
-    background-color:black;
+    background-color: #0A2463;
     color: white;
     text-align: center;
     bottom: 0;
@@ -85,7 +86,7 @@ nav ul {
 }
 
 .main-nav a:hover {
-	color: #427AA1;
+	color: #0B7A75;
 }
 
 
@@ -151,7 +152,7 @@ div.lists{
 .accordion {
     background-color: #eee;
     border-radius: 7px;
-    color: #444;
+    color: #0A2463;
     cursor: pointer;
     padding: 18px;
     width: 100%;

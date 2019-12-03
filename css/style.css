@@ -234,9 +234,22 @@ div.lists{
   margin-right: auto;
 }
 
+/*tandem styling*/
+
+.vid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+
 
 /* tablet media query */
-@media all and (min-width: 755px){
+@media all and (min-width: 600px){
     .grid-container{
         grid-template-columns: 1fr 1fr;
     }
@@ -297,6 +310,25 @@ div.lists{
     .pic {
       width: 400px;
       height: 300px;
+    }
+
+    .tan1 {
+      padding-right: 25px;
+    }
+
+    
+    .tan2 {
+      padding-bottom: 5%;
+      grid-column: 1/span 2;
+    }
+
+    .vid{
+      align-content: center;
+    }
+
+    .tanpic {
+      padding-right: 25px;
+      padding-top: 30px;
     }
 }
 

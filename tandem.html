@@ -25,6 +25,8 @@
 			<header id = 'main'>
 				<h1>Tandem</h1>
 			</header>
+			 <button onclick=topFunction()
+        id="myBtn" title="Go to top">Top</button>
 			<div class="tandem">
 			<div class='what-tandem'>
 			<h2>What is Tandem?</h2>
@@ -81,6 +83,22 @@
 		</div>
 	</div>
 	</div>
+	<script>
+		// javascript for back to top button
+              mybutton = document.getElementById("myBtn");
+              window.onscroll = function() {scrollFunction()};
+              function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                  mybutton.style.display = "block";
+                } else {
+                  mybutton.style.display = "none";
+                }
+              }
+              function topFunction() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+              }
+	</script>
 </main>
 <footer>
 		<p>University of Michigan College of Engineering <br/>

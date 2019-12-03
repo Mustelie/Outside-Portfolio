@@ -66,9 +66,20 @@ nav ul {
 }
 
 .logo {
-	margin: 0;
-    font-size: 29px;
-    color: #0A2463;
+  margin: 0px;
+  font-size: 30px;
+  line-height: 1;
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color:#0A2463;
+  letter-spacing: .05em;
+  text-shadow: 2px 4px 0px #d5d5d5, 5px 5px 0px rgba(0, 0, 0, 0.2);
+  animation-name: tracking-in-expand;
+  animation-duration: 1.4s;  
 }
 
 .main-nav {

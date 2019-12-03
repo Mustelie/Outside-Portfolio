@@ -330,6 +330,10 @@ div.lists{
       padding-right: 25px;
       padding-top: 30px;
     }
+
+    .research-body{
+      grid-column: 1/-1;
+    }
 }
 
 
@@ -381,7 +385,7 @@ div.lists{
     }
 
     .t3 {
-      padding-top: 5%;
+/*      padding-top: 5%;*/
       grid-column: 1/ span 2;
       padding-right: 25px;
     }
@@ -429,6 +433,10 @@ div.lists{
 
     .tanpic {
       grid-column: 1;
+    }
+
+    .research-body{
+      grid-column: 1/-1;
     }
 }
 

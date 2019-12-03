@@ -28,11 +28,18 @@
 		</header>
 		<button onclick=topFunction()
         id="myBtn" title="Go to top">Top</button>
-	<div class = "research-body">
-		<div class="openings">
+	
+		<div class="accordion-container">
+        <button class="accordion">Current Research Openings</button>
+        <div class = "panel1" role ="region" aria-expanded="false" aria-label="first">
+<!-- 			<div class="openings"> -->
 			<h2>Research Openings</h2>
 			<p> I do not have research openings at this time. Thank you to those of you who have emailed me asking about research opportunities or to join my lab.  I teach full-time, and so I do not conduct regular research.  I do not have a research lab, nor do I have any research openings at this time.</p></br>
-		</div>
+<!-- 			</div> -->
+          </div>
+          </div>
+        <div class = "grid-container">
+		<div class = "research-body">
 		<div class="philosphy">
 		<h2>Philosophy</h2>
 
@@ -85,7 +92,21 @@
 		</div>
 	</div>
 	</div>
+</div>
 	<script>
+		var acc = document.getElementsByClassName("accordion");
+            var i;
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
 		// javascript for back to top button
               mybutton = document.getElementById("myBtn");
               window.onscroll = function() {scrollFunction()};

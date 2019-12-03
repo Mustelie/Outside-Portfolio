@@ -65,6 +65,7 @@ nav ul {
 	border-radius: 10px;
 }
 
+
 .logo {
   margin: 0px;
   font-size: 30px;
@@ -81,6 +82,8 @@ nav ul {
   animation-name: tracking-in-expand;
   animation-duration: 1.4s;  
 }
+
+/* logo font credit: https://codepen.io/juanbrujo/pen/yGpAK */
 
 .main-nav {
 	margin-top: 5px;

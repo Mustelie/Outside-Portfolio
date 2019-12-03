@@ -228,6 +228,11 @@ div.lists{
     padding-left: 5%;
 }
 
+.selfie{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 /* tablet media query */
@@ -285,7 +290,7 @@ div.lists{
     }
 
     .teach_img {
-      padding: 15%;
+      padding: 5%;
       grid-column: 2;
     }
 
@@ -358,6 +363,10 @@ div.lists{
 
     .caption{
       align-self: center;
+    }
+
+    .selfie{
+      height: 250px;
     }
 }
 

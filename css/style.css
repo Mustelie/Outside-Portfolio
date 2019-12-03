@@ -342,9 +342,14 @@ div.lists{
         padding-right: 2%;
     }
     /* teaching styling */
-    .t1, .t2, .t3 {
+    .t1, .t2 {
       padding-bottom: 5%;
     	grid-column: 1/ span 2;
+    }
+
+    .t3 {
+      padding-top: 5%;
+      grid-column: 1/ span 2;
     }
 
     .teach_img {

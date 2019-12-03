@@ -1,12 +1,13 @@
 .current{
     text-transform: bold;
     text-decoration: underline;
-    border:1px solid hotpink;
+    border:1px solid #427AA1;
+    border-radius: 7px;
 }
 
 h1{
     padding-top: 20px;
-    color: hotpink;
+    color:#427AA1;
     font-size: 27px;
 }
 
@@ -63,7 +64,7 @@ nav ul {
 .logo {
 	margin: 0;
     font-size: 29px;
-    color: hotpink;
+    color: #0A2463;
 }
 
 .main-nav {
@@ -78,12 +79,13 @@ nav ul {
 }
 
 .main-nav a {
-	color:orange;
-	font-size: .99em;
+	color: #0A2463;
+  font-size: .99em;
+  font-weight: bold;
 }
 
 .main-nav a:hover {
-	color: green;
+	color: #427AA1;
 }
 
 
@@ -148,6 +150,7 @@ div.lists{
 /* accordion on links page and teaching page*/
 .accordion {
     background-color: #eee;
+    border-radius: 7px;
     color: #444;
     cursor: pointer;
     padding: 18px;

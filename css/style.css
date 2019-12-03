@@ -377,11 +377,13 @@ div.lists{
     .t1, .t2 {
       padding-bottom: 5%;
     	grid-column: 1/ span 2;
+      padding-right: 25px;
     }
 
     .t3 {
       padding-top: 5%;
       grid-column: 1/ span 2;
+      padding-right: 25px;
     }
 
     .teach_img {
@@ -404,6 +406,29 @@ div.lists{
 
     .selfie{
       height: 250px;
+    }
+
+/*    tandom styling*/
+
+    .demo-site, .learn-more {
+      grid-column: 1/-1;
+    }
+
+    .tan1 {
+      padding-top: 2px;
+      grid-column: 1/ span 2;
+    }
+
+    .vid {
+      height: 200px;
+    }
+
+    .tan2 {
+      grid-column: 1/span 2;
+    }
+
+    .tanpic {
+      grid-column: 1;
     }
 }
 
